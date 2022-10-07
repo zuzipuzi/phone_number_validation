@@ -19,11 +19,13 @@ dependencies:
   flutter_bloc: ^8.1.1
   logger: ^1.1.0
   injectable_generator: ^1.5.4
-  beamer: ^1.5.3
   json_annotation: ^4.7.0
   dio: ^4.0.6
   equatable: ^2.0.5
   path_provider: ^2.0.11
+  flutter_multi_formatter: ^2.8.0
+  flutter_svg: ^1.1.5
+
 
 dev_dependencies:
   flutter_test:
@@ -36,4 +38,27 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/
+fonts:
+  - family: Inter
+    fonts:
+      - asset: Inter-Thin.ttf
+        weight: 100
+      - asset: assets/fonts/Inter-ExtraLight.ttf
+        weight: 200
+      - asset: assets/fonts/Inter-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Inter-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Inter-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Inter-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Inter-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/Inter-ExtraBold.ttf
+        weight: 800
+      - asset: assets/fonts/Inter-Black.ttf
+        weight: 900
 
